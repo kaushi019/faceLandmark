@@ -1,0 +1,20 @@
+{
+  "name": "facelandmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/face-landmarks-detection": "^0.0.3",
+    "@tensorflow/tfjs": "^3.11.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.11.0",
+    "express": "^4.17.1"
+  }
+}
